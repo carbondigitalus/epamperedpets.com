@@ -94,7 +94,6 @@ Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Car
         <ul>
           <li class="style3A"><span class="style2">Checks and money orders </span></li>
           <li class="style3A"><span class="style2">Credit cards (Visa, Mastercard, and American Express).  </span></li>
-          <li class="style3A"><span class="style2">We will on some occasions accept cash, but you must call the office before your scheduled service to arrange for this. </span></li>
         </ul>
         <p><span class="style2">It is Pampered Pets’ Policy to receive payment for services prior to services being rendered.  If you have elected to maintain a credit card on file with us, then the funds will be automatically collected the day of the first service.   </span></p>
         <p><span class="style2">If you intend to pay on delivery (POD) then please contact the office before your services begins.  In some  rare cases, there may be a $5.00 service charge for this payment arrangement. </span></p>

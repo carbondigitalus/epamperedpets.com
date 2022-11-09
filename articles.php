@@ -130,20 +130,8 @@ Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Car
                                     </tr>
                                 </table>
                             </div>
-                            <p><strong class="articleHeader">Pampered Pets and Bark for Life. What a team!</strong></p>
-                            <p class="style2">
-                                Pampered Pets is participating in the 2013 Bark for Life in Hummelstown, PA. on April 27th.  We are raising money for the American Cancer Society by doing what we do best; WALKING PETS. <br />
-                                Please check out our page and lend us a hand is reaching our goal.
-                            </p>
-                            <p class="style2" style="text-align: center;"><a href="https://main.acsevents.org/site/TR/RelayForLife/BFLCY13EC?team_id=1367615&amp;pg=team&amp;fr_id=54494" target="_blank">Click Here</a></p>
-                            <p class="style2">
-                                <br />
-                                1.  You can donate using the Donate Tab on the site.<br />
-                                2.  You can join our team and walk with us by using the Join Team Tab on the site.<br />
-                                3.  You can lend us your pet for the event.  (Space is limited)  Call Chris for more details.<br />
-                                <br />
-                                We look forward to your support in helping us make this world a better place.
-                            </p>
+                            <p>
+                              <strong class="articleHeader">Pampered Pets!</strong></p>
                             <p class="style2">
                                 As always, if you have questions or need some assistance, please contact us at <a href="tel:717-214-1994">(717) 214-1994</a> or <a href="mailto:support@epamperedpets.com">support@epamperedpets.com</a>
                             </p>

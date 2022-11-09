@@ -18,15 +18,79 @@
 	    "@context": "https://schema.org/",
 	    "@type": "Product",
 	    "name": "Pet Sits",
-	    "image": "",
+	    "image": "images/pamperedPets3.png",
+			"sku": "1",
 	    "description": "Pet sitter",
 	    "brand": "Pampered Pets",
 	    "offers": {
 	      "@type": "AggregateOffer",
 	      "url": "https://epamperedpets.com/",
 	      "priceCurrency": "USD",
-	      "lowPrice": "$19.00"
-	    }
+	      "lowPrice": "$19.00",
+				"highPrice": "$19.00",
+				"offerCount": "1"
+	    },
+			"aggregateRating": {
+		    "@type": "AggregateRating",
+		    "bestRating": "100",
+		    "ratingCount": "24",
+		    "ratingValue": "87"
+		  },
+			"review": [
+			    {
+			      "@type": "Review",
+			      "author": "Tim Carre",
+			      "datePublished": "2020-04-01",
+			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
+			      "name": "Couldn't be happier",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+			    {
+			      "@type": "Review",
+			      "author": "Deb Meinsler",
+			      "datePublished": "2019-03-25",
+			      "reviewBody": "Thank you Jackie. Another fine job.",
+			      "name": "Thank you Jackie",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "4",
+			        "worstRating": "1"
+			      }
+					},
+			    {
+			      "@type": "Review",
+			      "author": "Diane Mulcahy",
+			      "datePublished": "2020-01-15",
+			      "reviewBody": "Great people.",
+			      "name": "Great people",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+				},
+				{
+					"@type": "Review",
+					"author": "Diane Mulcahy",
+					"datePublished": "2018-09-12",
+					"reviewBody": "",
+					"name": "Stars",
+					"reviewRating": {
+						"@type": "Rating",
+						"bestRating": "5",
+						"ratingValue": "4",
+						"worstRating": "1"
+					}
+				}
+			  ]
 	  }
 	</script>
 	<script type="application/ld+json">
@@ -34,15 +98,79 @@
 	    "@context": "https://schema.org/",
 	    "@type": "Product",
 	    "name": "Pet Walks",
-	    "image": "",
+	    "image": "images/pamperedPets3.png",
+			"sku": "2",
 	    "description": "Pet walking",
 	    "brand": "Pampered Pets",
 	    "offers": {
 	      "@type": "AggregateOffer",
 	      "url": "https://epamperedpets.com/",
 	      "priceCurrency": "USD",
-	      "lowPrice": "18.00"
-	    }
+	      "lowPrice": "$18.00",
+				"highPrice": "$18.00",
+				"offerCount": "1"
+			},
+			"aggregateRating": {
+		    "@type": "AggregateRating",
+		    "bestRating": "100",
+		    "ratingCount": "20",
+		    "ratingValue": "80"
+			},
+			"review": [
+			    {
+			      "@type": "Review",
+			      "author": "Tim Carre",
+			      "datePublished": "2020-04-01",
+			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
+			      "name": "Couldn't be happier",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+			    {
+			      "@type": "Review",
+			      "author": "Deb Meinsler",
+			      "datePublished": "2019-03-25",
+			      "reviewBody": "Thank you Jackie. Another fine job.",
+			      "name": "Thank you Jackie",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "4",
+			        "worstRating": "1"
+			      }
+					},
+			    {
+			      "@type": "Review",
+			      "author": "Diane Mulcahy",
+			      "datePublished": "2020-01-15",
+			      "reviewBody": "Great people.",
+			      "name": "Great people",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+				},
+				{
+					"@type": "Review",
+					"author": "Diane Mulcahy",
+					"datePublished": "2018-09-12",
+					"reviewBody": "",
+					"name": "Stars",
+					"reviewRating": {
+						"@type": "Rating",
+						"bestRating": "5",
+						"ratingValue": "4",
+						"worstRating": "1"
+					}
+				}
+			  ]
 	  }
 	</script>
 	<script type="application/ld+json">
@@ -50,15 +178,79 @@
 	    "@context": "https://schema.org/",
 	    "@type": "Product",
 	    "name": "Pet Waste Cleanup and Removal",
-	    "image": "",
+	    "image": "images/pamperedPets3.png",
+			"sku": "3",
 	    "description": "Waste removal",
 	    "brand": "Pampered Pets",
 	    "offers": {
 	      "@type": "AggregateOffer",
 	      "url": "https://epamperedpets.com/",
 	      "priceCurrency": "USD",
-	      "lowPrice": "$0"
-	    }
+	      "lowPrice": "$1.00",
+				"highPrice": "$1.00",
+				"offerCount": "1"
+			},
+			"aggregateRating": {
+		    "@type": "AggregateRating",
+		    "bestRating": "100",
+		    "ratingCount": "15",
+		    "ratingValue": "73"
+			},
+			"review": [
+			    {
+			      "@type": "Review",
+			      "author": "Tim Carre",
+			      "datePublished": "2020-04-01",
+			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
+			      "name": "Couldn't be happier",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+			    {
+			      "@type": "Review",
+			      "author": "Deb Meinsler",
+			      "datePublished": "2019-03-25",
+			      "reviewBody": "Thank you Jackie. Another fine job.",
+			      "name": "Thank you Jackie",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "4",
+			        "worstRating": "1"
+			      }
+					},
+			    {
+			      "@type": "Review",
+			      "author": "Diane Mulcahy",
+			      "datePublished": "2020-01-15",
+			      "reviewBody": "Great people.",
+			      "name": "Great people",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+				},
+				{
+					"@type": "Review",
+					"author": "Diane Mulcahy",
+					"datePublished": "2018-09-12",
+					"reviewBody": "",
+					"name": "Stars",
+					"reviewRating": {
+						"@type": "Rating",
+						"bestRating": "5",
+						"ratingValue": "4",
+						"worstRating": "1"
+					}
+				}
+			  ]
 	  }
 	</script>
 	<script type="application/ld+json">
@@ -66,15 +258,79 @@
 	    "@context": "https://schema.org/",
 	    "@type": "Product",
 	    "name": "Pet Taxi",
-	    "image": "",
+	    "image": "images/pamperedPets3.png",
+			"sku": "4",
 	    "description": "Pet transportaion",
 	    "brand": "Pampered Pets",
 	    "offers": {
 	      "@type": "AggregateOffer",
 	      "url": "https://epamperedpets.com/",
 	      "priceCurrency": "USD",
-	      "lowPrice": "$12"
-	    }
+	      "lowPrice": "$12.00",
+				"highPrice": "$12.00",
+				"offerCount": "1"
+			},
+			"aggregateRating": {
+		    "@type": "AggregateRating",
+		    "bestRating": "100",
+		    "ratingCount": "32",
+		    "ratingValue": "81"
+			},
+			"review": [
+			    {
+			      "@type": "Review",
+			      "author": "Tim Carre",
+			      "datePublished": "2020-04-01",
+			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
+			      "name": "Couldn't be happier",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+			    {
+			      "@type": "Review",
+			      "author": "Deb Meinsler",
+			      "datePublished": "2019-03-25",
+			      "reviewBody": "Thank you Jackie. Another fine job.",
+			      "name": "Thank you Jackie",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "4",
+			        "worstRating": "1"
+			      }
+					},
+			    {
+			      "@type": "Review",
+			      "author": "Diane Mulcahy",
+			      "datePublished": "2020-01-15",
+			      "reviewBody": "Great people.",
+			      "name": "Great people",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+				},
+				{
+					"@type": "Review",
+					"author": "Diane Mulcahy",
+					"datePublished": "2018-09-12",
+					"reviewBody": "",
+					"name": "Stars",
+					"reviewRating": {
+						"@type": "Rating",
+						"bestRating": "5",
+						"ratingValue": "4",
+						"worstRating": "1"
+					}
+				}
+			  ]
 	  }
 	</script>
 	<script type="application/ld+json">
@@ -82,15 +338,79 @@
 	    "@context": "https://schema.org/",
 	    "@type": "Product",
 	    "name": "Chaperone Service",
-	    "image": "",
+	    "image": "images/pamperedPets3.png",
+			"sku": "5",
 	    "description": "Pet supervision",
 	    "brand": "Pampered Pets",
 	    "offers": {
 	      "@type": "AggregateOffer",
 	      "url": "https://epamperedpets.com/",
 	      "priceCurrency": "USD",
-	      "lowPrice": "$20"
-	    }
+	      "lowPrice": "$20.00",
+				"highPrice": "$20.00",
+				"offerCount": "1"
+			},
+			"aggregateRating": {
+		    "@type": "AggregateRating",
+		    "bestRating": "100",
+		    "ratingCount": "17",
+		    "ratingValue": "80"
+			},
+			"review": [
+			    {
+			      "@type": "Review",
+			      "author": "Tim Carre",
+			      "datePublished": "2020-04-01",
+			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
+			      "name": "Couldn't be happier",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+			    {
+			      "@type": "Review",
+			      "author": "Deb Meinsler",
+			      "datePublished": "2019-03-25",
+			      "reviewBody": "Thank you Jackie. Another fine job.",
+			      "name": "Thank you Jackie",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "4",
+			        "worstRating": "1"
+			      }
+					},
+			    {
+			      "@type": "Review",
+			      "author": "Diane Mulcahy",
+			      "datePublished": "2020-01-15",
+			      "reviewBody": "Great people.",
+			      "name": "Great people",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+				},
+				{
+					"@type": "Review",
+					"author": "Diane Mulcahy",
+					"datePublished": "2018-09-12",
+					"reviewBody": "",
+					"name": "Stars",
+					"reviewRating": {
+						"@type": "Rating",
+						"bestRating": "5",
+						"ratingValue": "4",
+						"worstRating": "1"
+					}
+				}
+			  ]
 	  }
 	</script>
 	<script type="application/ld+json">
@@ -98,15 +418,79 @@
 	    "@context": "https://schema.org/",
 	    "@type": "Product",
 	    "name": "Lockout Service",
-	    "image": "",
+	    "image": "images/pamperedPets3.png",
+			"sku": "6",
 	    "description": "Provide spare key if locked out of home",
 	    "brand": "Pampered Pets",
 	    "offers": {
 	      "@type": "AggregateOffer",
 	      "url": "https://epamperedpets.com/",
 	      "priceCurrency": "USD",
-	      "lowPrice": "$15"
-	    }
+	      "lowPrice": "$15.00",
+				"highPrice": "$15.00",
+				"offerCount": "1"
+			},
+			"aggregateRating": {
+		    "@type": "AggregateRating",
+		    "bestRating": "100",
+		    "ratingCount": "25",
+		    "ratingValue": "90"
+			},
+			"review": [
+			    {
+			      "@type": "Review",
+			      "author": "Tim Carre",
+			      "datePublished": "2020-04-01",
+			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
+			      "name": "Couldn't be happier",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+			    {
+			      "@type": "Review",
+			      "author": "Deb Meinsler",
+			      "datePublished": "2019-03-25",
+			      "reviewBody": "Thank you Jackie. Another fine job.",
+			      "name": "Thank you Jackie",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "4",
+			        "worstRating": "1"
+			      }
+					},
+			    {
+			      "@type": "Review",
+			      "author": "Diane Mulcahy",
+			      "datePublished": "2020-01-15",
+			      "reviewBody": "Great people.",
+			      "name": "Great people",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+				},
+				{
+					"@type": "Review",
+					"author": "Diane Mulcahy",
+					"datePublished": "2018-09-12",
+					"reviewBody": "",
+					"name": "Stars",
+					"reviewRating": {
+						"@type": "Rating",
+						"bestRating": "5",
+						"ratingValue": "4",
+						"worstRating": "1"
+					}
+				}
+			  ]
 	  }
 	</script>
 	<script type="application/ld+json">
@@ -114,14 +498,79 @@
 	    "@context": "https://schema.org/",
 	    "@type": "Product",
 	    "name": "Therapy Dog Services",
-	    "image": "",
+	    "image": "images/pamperedPets3.png",
+			"sku": "7",
 	    "description": "Therapy dog visits",
+			"brand": "Pampered Pets",
 	    "offers": {
 	      "@type": "AggregateOffer",
 	      "url": "https://epamperedpets.com/",
 	      "priceCurrency": "USD",
-	      "lowPrice": "$19"
-	    }
+	      "lowPrice": "$19.00",
+				"highPrice": "$19.00",
+				"offerCount": "1"
+			},
+			"aggregateRating": {
+		    "@type": "AggregateRating",
+		    "bestRating": "100",
+		    "ratingCount": "31",
+		    "ratingValue": "72"
+			},
+			"review": [
+			    {
+			      "@type": "Review",
+			      "author": "Tim Carre",
+			      "datePublished": "2020-04-01",
+			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
+			      "name": "Couldn't be happier",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+			    {
+			      "@type": "Review",
+			      "author": "Deb Meinsler",
+			      "datePublished": "2019-03-25",
+			      "reviewBody": "Thank you Jackie. Another fine job.",
+			      "name": "Thank you Jackie",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "4",
+			        "worstRating": "1"
+			      }
+					},
+			    {
+			      "@type": "Review",
+			      "author": "Diane Mulcahy",
+			      "datePublished": "2020-01-15",
+			      "reviewBody": "Great people.",
+			      "name": "Great people",
+			      "reviewRating": {
+			        "@type": "Rating",
+			        "bestRating": "5",
+			        "ratingValue": "5",
+			        "worstRating": "1"
+			      }
+			    },
+				},
+				{
+					"@type": "Review",
+					"author": "Diane Mulcahy",
+					"datePublished": "2018-09-12",
+					"reviewBody": "",
+					"name": "Stars",
+					"reviewRating": {
+						"@type": "Rating",
+						"bestRating": "5",
+						"ratingValue": "4",
+						"worstRating": "1"
+					}
+				}
+			  ]
 	  }
 	</script>
 
@@ -204,8 +653,23 @@
       <tr>
         <td valign="top">
           <p align="center" class="style8"><u>RATES</u></p>
-          <p align="center" class="style7"><strong>Service  Fee Schedule</strong> <em>Effective  March 16, 2018</em></p>
-          <table width="400" border="1" align="center" cellpadding="10" bgcolor="#FFFF99">
+          <p align="center" class="style7"><strong>Service  Fee Schedule</strong> <em>Effective  September 15, 2021</em></p>
+					<p align="center" class="style7">After carefully analyzing inflation & fuel costs this past year, a necessary price increase to our services will become effective September 15, 2021.  In Home visits will increase $2.00 per visit and Overnights will increase $5.00 per overnight.
+						<br><br>Holiday surcharge for overnight stays is $10.
+					</p>
+					<table width="400" border="1" align="center" cellpadding="10">
+            <tr>
+							<p align="center" class="style7">
+								The time window for visits is as follows:<br>
+								6:00-10:00AM - Morning<br>
+								10:00-2:00PM - Midday<br>
+								2:00-5:00PM - Late Afternoon<br>
+								5:00-9:00PM - Evening<br>
+								9:00PM-6:00AM - Overnight<br>
+							</p>
+            </tr>
+          </table>
+					<table width="400" border="1" align="center" cellpadding="10" bgcolor="#FFFF99">
             <tr>
               <td style="color: #000"><span style="font-weight: bold">Note:</span> Due to increasing processing costs and fees, <span style="font-weight: bold">effective January 1, 2019 Payments made using credit or debit cards will incur an additional 5% charge</span>. Payments made by cash or check will not incur the additional fee. Your understanding is appreciated.</td>
             </tr>
@@ -219,18 +683,13 @@
               <td width="93"><div align="center"><u><span class="style15">Holiday</span></u></div></td>
             </tr>
             <tr>
-              <td bgcolor="#ADBFB5"><span class="style13">*Daily Visit (20-30 minutes)</span></td>
-              <td bgcolor="#D8E9D6"><div align="center"><span class="style13">$19.00</span></div></td>
-              <td bgcolor="#ADBFB5"><div align="center"><span class="style13">$24.00</span></div></td>
-            </tr>
-            <tr>
-              <td bgcolor="#ADBFB5"><span class="style13">*Daily Visit (60 minutes)</span></td>
-							<td bgcolor="#D8E9D6" class="style13"><div align="center">$36.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$42.00</div></td>
+              <td bgcolor="#ADBFB5"><span class="style13">*Daily Visit (25-30 minutes)</span></td>
+              <td bgcolor="#D8E9D6"><div align="center"><span class="style13">$20.00</span></div></td>
+              <td bgcolor="#ADBFB5"><div align="center"><span class="style13">$25.00</span></div></td>
             </tr>
             <tr>
               <td bgcolor="#ADBFB5" class="style13">Overnight Visit</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$70.00</div></td>
+              <td bgcolor="#D8E9D6" class="style13"><div align="center">$75.00</div></td>
               <td bgcolor="#ADBFB5" class="style13"><div align="center">$85.00</div></td>
             </tr>
             <tr>
@@ -244,9 +703,9 @@
               <td valign="bottom" class="style15"><div align="center"><u>Holiday</u></div></td>
             </tr>
             <tr>
-              <td bgcolor="#ADBFB5" class="style13">20 minute walks</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$18.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$23.00</div></td>
+              <td bgcolor="#ADBFB5" class="style13">25 minute walks</td>
+              <td bgcolor="#D8E9D6" class="style13"><div align="center">$20.00</div></td>
+              <td bgcolor="#ADBFB5" class="style13"><div align="center">$25.00</div></td>
             </tr>
 
             <tr>
@@ -279,7 +738,7 @@
               <td bgcolor="#ADBFB5" class="style13"><div align="center">$22.00</div></td>
             </tr>
             <tr>
-              <td class="style15"><p><u>Chaparone Sevice</u></p></td>
+              <td class="style13"><p><u>Chaparone Sevice</u></p></td>
               <td valign="bottom" class="style15"><div align="center"><u>Base</u></div></td>
               <td valign="bottom" class="style15"><div align="center"><u>Holiday</u></div></td>
             </tr>
@@ -330,7 +789,7 @@
             </tr>
             <tr>
               <td colspan="3" class="style13"><u>Holiday Rates</u><br />
-              Special Holiday rates will be in effect for the following date: (there is a $5 surcharge per visit for services performed on these holidays)</td>
+              Special Holiday rates will be in effect for the following date: (there is a $5 surcharge per visit, and $10 surcharge per overnight visits, for services performed on these holidays)</td>
             </tr>
             <tr>
               <td colspan="3" class="style13"><table width="100%" border="0">

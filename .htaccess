@@ -23,8 +23,8 @@ Options All -Indexes
 IndexIgnore *.png *.zip *.jpg *.gif *.doc *.docx *.pdf
 
 # error pages
-ErrorDocument 403 /404.php
-ErrorDocument 404 /404.php
+ErrorDocument 403 /
+ErrorDocument 404 /
 
 # force https
 <IfModule mod_rewrite.c>

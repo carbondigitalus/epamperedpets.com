@@ -89,11 +89,15 @@ Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Car
     </div>
     <table width="75%" border="0" align="center" cellpadding="5">
       <tr>
-        <td valign="top"><div align="center"><span class="style1"><u>Contact Us</u></span></div>
-        <p>&nbsp;</p>
-        <p class="style2"><strong>Call: </strong><a href="tel:717-214-1994">(717) 214-1994</a></p>
-        <p class="style2"><strong>Email: </strong><a href="mailto:support@epamperedpets.com">support@epamperedpets.com</a></p>
-        <p class="style2"><strong>Write: </strong><br />Pampered Pets<br />4075 Linglestown Rd #346<br />Harrisburg, PA. 17110</p></td>
+        <td valign="top">
+					<div align="center"><span class="style1"><u>Contact Us</u></span></div>
+        	<p>&nbsp;</p>
+        	<p class="style2"><strong>Call: </strong><a href="tel:717-214-1994">(717) 214-1994</a></p>
+        	<p class="style2"><strong>Email: </strong><a href="mailto:support@epamperedpets.com">support@epamperedpets.com</a></p>
+        	<p class="style2"><strong>Write: </strong><br />Pampered Pets<br />4075 Linglestown Rd #346<br />Harrisburg, PA. 17110</p>
+					<br><br>
+					<p class="style2"><strong>Notice: <br>As of Friday, June 11, all new client consultations are scheduled at least two weeks in advance.</strong></p>
+				</td>
       </tr>
     </table>
   <!-- InstanceEndEditable --></div>
