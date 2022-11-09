@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: DuckDuckBot
+User-agent: facebot
+User-agent: ia_archiver
+Allow: /
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /SpryAssets/
+Disallow: /html/
+Disallow: /_epamperedpets_backup_20210324.zip
+Disallow: /MakingTheMost.pdf
+Disallow: /scripts.js
+Disallow: /styles.css

@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Pet of the Month</title>
+
+<meta property="og:title" content="Pampered Pets">
+<meta property="og:description" content="In-home, professional pet services to the residents and guests of Harrisburg, PA.">
+<meta property="og:image" content="https://epamperedpets.com/images/pamperedPets3.png">
+<meta property="og:url" content="https://epamperedpets.com">
+<meta name="twitter:card" content="summary_large_image">
+
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: medium;
+	font-weight: bold;
+	color: #4E680F;
+}
+.style2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+.style3 {
+	font-size: medium;
+	font-weight: bold;
+}
+body {
+	background-color: #edffed;
+}
+-->
+</style>
+</head>
+
+<body>
+ <div align="center" class="style1">
+<p>October 2014 </p></div>
+   <table width="95%" border="0" cellpadding="10">
+     <tr>
+       <td height="542" valign="top"><div align="center">
+         <p><img src="../../../images/oct2014POM.jpg" width="499" height="1062" alt=""/></p>
+         <p class="style2"><strong>Sylvie &amp; Louie</strong></p>
+       </div>
+<p class="style2">
+  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"></p>
+<div>
+  <table cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+      <tr>
+        <td valign="top"><div>
+          <div class="style2">
+            <p>&nbsp;</p>
+          </div>
+        </div></td>
+      </tr>
+    </tbody>
+  </table>
+</div></td>
+     </tr>
+</table>
+</body>
+</html>

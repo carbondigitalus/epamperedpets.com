@@ -1,0 +1,119 @@
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+# Deny access to files with extensions .ini, .psd, .log, .sh
+<FilesMatch "\.(ini|psd|log|sh)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# Deny access to filenames starting with dot(.)
+<FilesMatch "^\.">
+Order allow,deny
+Deny from all
+</FilesMatch>
+
+# directory browsing
+Options All -Indexes
+
+# no-index file types
+IndexIgnore *.png *.zip *.jpg *.gif *.doc *.docx *.pdf
+
+# error pages
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+
+# force https
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# remove php page extension and add trailing slash
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^/]+)/$ $1.php
+RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule (.*)$ /$1/ [R=301,L]
+
+# 301 redirects, pages
+Redirect 301 /AboutUs.html /about
+Redirect 301 /articles.html /articles.php
+Redirect 301 /award.html /about.php
+Redirect 301 /Contact.html /contact.php
+Redirect 301 /index.html /
+Redirect 301 /join.html /join.php
+Redirect 301 /most.html /most.php
+Redirect 301 /PetOMonth.html /pet-of-the-month.php
+Redirect 301 /policies.html /policies.php
+Redirect 301 /Rates.html /rates.php
+Redirect 301 /reservations.html /reservations.php
+Redirect 301 /ServiceArea.html /service-area.php
+Redirect 301 /testimonials.html /testimonials.php
+
+# 301 redirects, blog articles
+Redirect 301 /article1.html /articles/article1.php
+Redirect 301 /chewing.html /articles/chewing.php
+Redirect 301 /crateTraining.html /articles/crateTraining.php
+Redirect 301 /hourseTraining,html.html /articles/houseTraining.php
+Redirect 301 /jumping.html /articles/jumping.php
+
+# 301 redirects, documents
+Redirect 301 /MakingTheMost.pdf /docs/MakingTheMost.pdf
+
+# 301 redirects, pom archives 2012
+Redirect 301 /POMArchives/PetOMonthArchives.html /pom/archives/2012.php
+Redirect 301 /POMArchives/2012/POMMar2012.html /pom/archives/2012/03.php
+Redirect 301 /POMArchives/2012/POMApr2012.html /pom/archives/2012/04.php
+Redirect 301 /POMArchives/2012/POMMay2012.html /pom/archives/2012/05.php
+Redirect 301 /POMArchives/2012/POMJune2012.html /pom/archives/2012/06.php
+Redirect 301 /POMArchives/2012/POMJuly2012.html /pom/archives/2012/07.php
+Redirect 301 /POMArchives/2012/POMAug2012.html /pom/archives/2012/08.php
+Redirect 301 /POMArchives/2012/POMSept2012.html /pom/archives/2012/09.php
+Redirect 301 /POMArchives/2012/POMOct2012.html /pom/archives/2012/10.php
+Redirect 301 /POMArchives/2012/POMNov2012.html /pom/archives/2012/11.php
+Redirect 301 /POMArchives/2012/POMDec2012.html /pom/archives/2012/12.php
+
+# 301 redirects, pom archives 2013
+Redirect 301 /POMArchives/PetOMonth2013.html /pom/archives/2013.php
+Redirect 301 /POMArchives/2013/POMJan2013.html /pom/archives/2013/01.php
+Redirect 301 /POMArchives/2013/POMFeb2013.html /pom/archives/2013/02.php
+Redirect 301 /POMArchives/2013/POMMar2013.html /pom/archives/2013/03.php
+Redirect 301 /POMArchives/2013/POMApr2013.html /pom/archives/2013/04.php
+Redirect 301 /POMArchives/2013/POMMay2013.html /pom/archives/2013/05.php
+Redirect 301 /POMArchives/2013/POMJun2013.html /pom/archives/2013/06.php
+Redirect 301 /POMArchives/2013/POMJuly2013.html /pom/archives/2013/07.php
+Redirect 301 /POMArchives/2013/POMAug2013.html /pom/archives/2013/08.php
+Redirect 301 /POMArchives/2013/POMSept2013.html /pom/archives/2013/09.php
+Redirect 301 /POMArchives/2013/POMOct2013.html /pom/archives/2013/10.php
+Redirect 301 /POMArchives/2013/POMNov2013.html /pom/archives/2013/11.php
+Redirect 301 /POMArchives/2013/POMDec2013.html /pom/archives/2013/12.php
+
+# 301 redirects, pom archives 2014
+Redirect 301 /POMArchives/PetOMonth2014.html /pom/archives/2014.php
+Redirect 301 /POMArchives/2014/POMJan2014.html /pom/archives/2014/01.php
+Redirect 301 /POMArchives/2014/POMFeb2014.html /pom/archives/2014/02.php
+Redirect 301 /POMArchives/2014/POMMar2014.html /pom/archives/2014/03.php
+Redirect 301 /POMArchives/2014/POMApr2014.html /pom/archives/2014/04.php
+Redirect 301 /POMArchives/2014/POMMay2014.html /pom/archives/2014/05.php
+Redirect 301 /POMArchives/2014/POMJun2014.html /pom/archives/2014/06.php
+Redirect 301 /POMArchives/2014/POMJuly2014.html /pom/archives/2014/07.php
+Redirect 301 /POMArchives/2014/POMAug2014.html /pom/archives/2014/08.php
+Redirect 301 /POMArchives/2014/POMSept2014.html /pom/archives/2014/09.php
+Redirect 301 /POMArchives/2014/POMOct2014.html /pom/archives/2014/10.php
+Redirect 301 /POMArchives/2014/POMNov2014.html /pom/archives/2014/11.php
+Redirect 301 /POMArchives/2014/POMDec2014.html /pom/archives/2014/12.php
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php74” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php74 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
