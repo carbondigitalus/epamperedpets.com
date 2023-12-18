@@ -89,11 +89,7 @@
 		          <p class="style2">The  pet sitters of Pampered Pets have been providing in-home,  professional pet services to the residents and guests of Harrisburg,  PA for almost two decades.  Established in 1993, we are one of the  longest established in-home pet service providers in the area.  You  don’t stay in this business that long without making customer  satisfaction your primary goal.  We are professional, responsible,  pet loving adults, providing quality time with your pets through  daily exercise and playtime.  We ensure your pet(s) receive the  personalized loving attention they deserve, even while you are away,  adding the benefit of creating the “we are still home” look to  anyone who may be watching.  Our most coveted core  competency is customer service.  From this we have built a reputation  of being a caring and loving organization that is a reliable source  of services and information.  Our reputation and the value of our  services has created peace of mind for more than 800 pet parents and  security, safety, and fun for the more than 1400 pets they have  entrusted us with. </p>
 			        <p class="style2">Our  goal is to make your time away from your pets as stress and worry  free as possible.  We know that your pet is unique and your  relationship with them is special, so when you call for your initial  consultation, be sure to let us know everything we can do to make  this time away a more enjoyable experience for you and your pets.</p>
 			        <p align="center">&nbsp;</p>
-			        <table width="400" border="1" align="center" cellpadding="10" bgcolor="#FFFF99">
-			          <tr>
-			            <td style="color: #000"><span style="font-weight: bold">Note:</span> Due to increasing processing costs and fees, <span style="font-weight: bold">effective January 1, 2019 Payments made using credit or debit cards will incur an additional 5% charge</span>. Payments made by cash or check will not incur the additional fee. Your understanding is appreciated.</td>
-			          </tr>
-			        </table>
+					<?php echo file_get_contents("html/_rate-change-notice.html"); ?>
 			        <h2 align="center">&nbsp;</h2>
 			        <p class="style2"></p>
 			        <p class="style2">&nbsp;</p></td>

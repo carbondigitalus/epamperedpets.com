@@ -653,9 +653,10 @@
       <tr>
         <td valign="top">
           <p align="center" class="style8"><u>RATES</u></p>
-          <p align="center" class="style7"><strong>Service  Fee Schedule</strong> <em>Effective  September 15, 2021</em></p>
-					<p align="center" class="style7">After carefully analyzing inflation & fuel costs this past year, a necessary price increase to our services will become effective September 15, 2021.  In Home visits will increase $2.00 per visit and Overnights will increase $5.00 per overnight.
-						<br><br>Holiday surcharge for overnight stays is $10.
+          <p align="center" class="style7"><strong>Service  Fee Schedule</strong> <em>Effective January 1, 2024</em></p>
+					<p align="center" class="style7">
+						Holiday surcharge for in-home stays is $10.<br/>
+						Holiday surcharge for overnight stays is $25.
 					</p>
 					<table width="400" border="1" align="center" cellpadding="10">
             <tr>
@@ -668,12 +669,7 @@
 								9:00PM-6:00AM - Overnight<br>
 							</p>
             </tr>
-          </table>
-					<table width="400" border="1" align="center" cellpadding="10" bgcolor="#FFFF99">
-            <tr>
-              <td style="color: #000"><span style="font-weight: bold">Note:</span> Due to increasing processing costs and fees, <span style="font-weight: bold">effective January 1, 2019 Payments made using credit or debit cards will incur an additional 5% charge</span>. Payments made by cash or check will not incur the additional fee. Your understanding is appreciated.</td>
-            </tr>
-          </table>
+		<?php echo file_get_contents("html/_rate-change-notice.html"); ?>
           <p align="center" class="style7">&nbsp;</p>
           <table width="511" border="0" align="center" cellpadding="10" cellspacing="0">
 
@@ -783,13 +779,13 @@
               <td bgcolor="#ADBFB5" class="style13">&nbsp;</td>
             </tr>
             <tr>
-              <td bgcolor="#FFFFFF" class="style13">Poe is a 3 yr. old Cane Corso.  She is very friendly, affectionate, gentle and enjoys human contact. Her primary role is to make physical contact and to provide love and comfort to anyone, whether it be an adult or child who may be sick at home, in long-term care, in a hospital, or in a retirement facility.</td>
+              <td bgcolor="#FFFFFF" class="style13">Poe is a 3 yr. old Cane Corso. She is very friendly, affectionate, gentle and enjoys human contact. Her primary role is to make physical contact and to provide love and comfort to anyone, whether it be an adult or child who may be sick at home, in long-term care, in a hospital, or in a retirement facility.</td>
               <td bgcolor="#FFFFFF" class="style13" style="text-align: center"><img src="images/Poe1.jpg" width="100" height="141" alt="Poe1" /></td>
               <td bgcolor="#FFFFFF" class="style13"><img src="images/Poe2.jpg" width="100" height="141" alt="Poe2" /></td>
             </tr>
             <tr>
               <td colspan="3" class="style13"><u>Holiday Rates</u><br />
-              Special Holiday rates will be in effect for the following date: (there is a $5 surcharge per visit, and $10 surcharge per overnight visits, for services performed on these holidays)</td>
+              Special Holiday rates will be in effect for holidays (there is a $10 surcharge per visit, and $25 surcharge per overnight visits, for services performed on these holidays). These rates encompass the week of the holiday, not only the actual holiday itself.</td>
             </tr>
             <tr>
               <td colspan="3" class="style13"><table width="100%" border="0">
