@@ -680,8 +680,8 @@
             </tr>
             <tr>
               <td bgcolor="#ADBFB5"><span class="style13">*Daily Visit (25-30 minutes)</span></td>
-              <td bgcolor="#D8E9D6"><div align="center"><span class="style13">$20.00</span></div></td>
-              <td bgcolor="#ADBFB5"><div align="center"><span class="style13">$25.00</span></div></td>
+              <td bgcolor="#D8E9D6"><div align="center"><span class="style13">$28.00</span></div></td>
+              <td bgcolor="#ADBFB5"><div align="center"><span class="style13">$38.00</span></div></td>
             </tr>
             <tr>
               <td bgcolor="#ADBFB5" class="style13">Overnight Visit</td>
@@ -700,8 +700,8 @@
             </tr>
             <tr>
               <td bgcolor="#ADBFB5" class="style13">25 minute walks</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$20.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$25.00</div></td>
+              <td bgcolor="#D8E9D6" class="style13"><div align="center">$28.00</div></td>
+              <td bgcolor="#ADBFB5" class="style13"><div align="center">$38.00</div></td>
             </tr>
 
             <tr>
@@ -724,24 +724,19 @@
               <td valign="bottom" class="style15"><div align="center">Holiday</div></td>
             </tr>
             <tr>
-              <td bgcolor="#ADBFB5" class="style13">Taxi Service (Base/Per Mile)</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$10/$2</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$15/$3</div></td>
+				<td bgcolor="#ADBFB5" class="style13">Taxi Service (Base/Per Mile)</td>
+				<td bgcolor="#D8E9D6" class="style13"><div align="center">$25/$2</div></td>
+				<td bgcolor="#ADBFB5" class="style13"><div align="center">$35/$3</div></td>
             </tr>
             <tr>
-              <td bgcolor="#ADBFB5" class="style13">Hourly Fee (if waiting for pet)</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$15.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$22.00</div></td>
-            </tr>
-            <tr>
-              <td class="style13"><p><u>Chaparone Sevice</u></p></td>
+				<td class="style15"><u>Chaparone Sevice</u></td>
               <td valign="bottom" class="style15"><div align="center"><u>Base</u></div></td>
               <td valign="bottom" class="style15"><div align="center"><u>Holiday</u></div></td>
             </tr>
             <tr>
               <td bgcolor="#ADBFB5" class="style13">Per Hour (one hour minimum)</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$20.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$25.00</div></td>
+              <td bgcolor="#D8E9D6" class="style13"><div align="center">$35.00</div></td>
+              <td bgcolor="#ADBFB5" class="style13"><div align="center">$45.00</div></td>
             </tr>
             <tr>
               <td class="style15"><u>Lock Out Service</u></td>
@@ -750,13 +745,13 @@
             </tr>
             <tr>
               <td bgcolor="#ADBFB5" class="style13">Between 8 am and 8 pm</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$15.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$22.00</div></td>
+              <td bgcolor="#D8E9D6" class="style13"><div align="center">$25.00</div></td>
+              <td bgcolor="#ADBFB5" class="style13"><div align="center">$35.00</div></td>
             </tr>
             <tr>
               <td bgcolor="#ADBFB5" class="style13">Between 8 pm and 8 am</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$20.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$27.00</div></td>
+              <td bgcolor="#D8E9D6" class="style13"><div align="center">$35.00</div></td>
+              <td bgcolor="#ADBFB5" class="style13"><div align="center">$45.00</div></td>
             </tr>
             <tr>
               <td bgcolor="#EDFFED" class="style15"><u>Farm Animals</u></td>
