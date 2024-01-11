@@ -685,8 +685,8 @@
             </tr>
             <tr>
               <td bgcolor="#ADBFB5" class="style13">Overnight Visit</td>
-              <td bgcolor="#D8E9D6" class="style13"><div align="center">$75.00</div></td>
-              <td bgcolor="#ADBFB5" class="style13"><div align="center">$85.00</div></td>
+              <td bgcolor="#D8E9D6" class="style13"><div align="center">$100.00</div></td>
+              <td bgcolor="#ADBFB5" class="style13"><div align="center">$125.00</div></td>
             </tr>
             <tr>
               <td colspan="3" class="style16">* Rates subject to change without notice.<br /></td>
