@@ -66,7 +66,7 @@ Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Car
       <table width="100%" border="0" cellpadding="5">
         <tr>
           <td bgcolor="#0000FF"> <p class="style3">Pet Waste Removal</p>
-          <p class="style10">That’s right, we even doo the dirty work. We come to your home once or twice a week and clean up all the unwanted mess your pet may leave behind. This keeps your lawn clean and safe and your time freed up to enjoy your family, friends, and pet(s). We can even remove the waste and dispose of it in a way that is more friendly to our environment. </p></td>
+          <p class="style10">That&apos;s right, we even doo the dirty work. We come to your home once or twice a week and clean up all the unwanted mess your pet may leave behind. This keeps your lawn clean and safe and your time freed up to enjoy your family, friends, and pet(s). We can even remove the waste and dispose of it in a way that is more friendly to our environment. </p></td>
         </tr>
       </table>
     </div>
