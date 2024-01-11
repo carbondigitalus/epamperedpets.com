@@ -98,7 +98,7 @@ Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Car
               <p class="style2">Phone: <a href="tel:717-214-1994">(717) 214-1994</a><br /><br/>
               Email: <a href="mailto:reservations@epamperedpets.com">reservations@epamperedpets.com</a>
 							<br/><br/>
-              Current Clients: <a href="https://leashtime.com/login-page.php?bizid=170" target="_blank"><strong>Online Reservations</strong></a></p>
+              Current Clients: <a href="https://pamperedpets.petssl.com" target="_blank"><strong>Online Reservations</strong></a></p>
               <p class="style2">Once we know what service you are looking for, we will match you up with the right sitter and then confirm with you the services requested.</p>
               <p class="style2"><strong>Appointment Times<br />
               </strong>We aim to satisfy all our clients, so Pampered Pets does not have set hours. However, we do work within 4 hour time blocks. This ensures that each customer’s individual needs are taken care of. If your pet needs medication or some other special attention at a particular hour, let us know when you register for your services and we will make every attempt to meet these needs.</p>
