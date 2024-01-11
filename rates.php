@@ -764,7 +764,7 @@
               <td bgcolor="#ADBFB5" class="style13"><div align="center">$60</div></td>
             </tr>
             <tr>
-              <td bgcolor="#EDFFED" class="style13"><p class="style15"><u>Therapy Dog Services</u></p></td>
+              <td bgcolor="#EDFFED" class="style15"><u>Therapy Dog Services</u></td>
               <td bgcolor="#EDFFED" style="text-align: center"><u class="style15"> Base</u></td>
               <td bgcolor="#EDFFED" class="style13">&nbsp;</td>
             </tr>
