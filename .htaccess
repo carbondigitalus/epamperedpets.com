@@ -50,7 +50,6 @@ Redirect 301 /award.html /about.php
 Redirect 301 /Contact.html /contact.php
 Redirect 301 /index.html /
 Redirect 301 /join.html /join.php
-Redirect 301 /login https://pamperedpets.petssl.com/login
 Redirect 301 /most.html /most.php
 Redirect 301 /PetOMonth.html /pet-of-the-month.php
 Redirect 301 /policies.html /policies.php
