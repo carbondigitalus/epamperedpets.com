@@ -15,6 +15,118 @@
         <meta property="og:url" content="https://epamperedpets.com">
         <meta name="twitter:card" content="summary_large_image">
 
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                "@type": "WebPage",
+                "@id": "https://epamperedpets.com/about",
+                "name": "About Pampered Pets",
+                "description": "Pampered Pets has been providing professional pet sitting, dog walking, and pet care services in Harrisburg, PA for nearly two decades. Learn more about our services and commitment to pet care.",
+                "url": "https://epamperedpets.com/about",
+                "isPartOf": {
+                    "@type": "WebSite",
+                    "name": "Pampered Pets",
+                    "url": "https://epamperedpets.com"
+                },
+                "breadcrumb": {
+                    "@type": "BreadcrumbList",
+                    "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://epamperedpets.com"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "About",
+                        "item": "https://epamperedpets.com/about"
+                    }
+                    ]
+                }
+                },
+                {
+                "@type": "AboutPage",
+                "url": "https://epamperedpets.com/about",
+                "name": "About Us",
+                "description": "Learn more about Pampered Pets and our dedication to professional pet care in Harrisburg, PA."
+                },
+                {
+                "@type": "Organization",
+                "@id": "https://epamperedpets.com#organization",
+                "name": "Pampered Pets",
+                "logo": "https://epamperedpets.com/images/pamperedPets3.png",
+                "url": "https://epamperedpets.com",
+                "description": "Professional in-home pet services including pet sitting, dog walking, and pet taxi in Harrisburg, PA.",
+                "foundingDate": "1993",
+                "sameAs": [
+                    "https://www.facebook.com/pamperedpets",
+                    "https://www.instagram.com/pamperedpets"
+                ],
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "4075 Linglestown Rd #346",
+                    "addressLocality": "Harrisburg",
+                    "addressRegion": "PA",
+                    "postalCode": "17110",
+                    "addressCountry": "US"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+1-717-214-1994",
+                    "contactType": "customer service",
+                    "email": "support@epamperedpets.com",
+                    "availableLanguage": ["English"]
+                }
+                },
+                {
+                "@type": "LocalBusiness",
+                "@id": "https://epamperedpets.com#business",
+                "name": "Pampered Pets",
+                "image": "https://epamperedpets.com/images/pamperedPets3.png",
+                "url": "https://epamperedpets.com",
+                "description": "Providing professional pet services to residents and visitors of Harrisburg, PA.",
+                "telephone": "+1-717-214-1994",
+                "email": "support@epamperedpets.com",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "4075 Linglestown Rd #346",
+                    "addressLocality": "Harrisburg",
+                    "addressRegion": "PA",
+                    "postalCode": "17110",
+                    "addressCountry": "US"
+                },
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+1-717-214-1994",
+                    "contactType": "customer service",
+                    "email": "support@epamperedpets.com",
+                    "availableLanguage": ["English"]
+                },
+                "openingHours": [
+                    "Mo-Fr 08:00-18:00",
+                    "Sa-Su 09:00-16:00"
+                ],
+                "priceRange": "$$",
+                "sameAs": [
+                    "https://www.facebook.com/pamperedpets",
+                    "https://www.instagram.com/pamperedpets"
+                ],
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "40.2732",
+                    "longitude": "-76.8867"
+                }
+                }
+            ]
+            }
+            </script>
+
+
+
         <?php echo file_get_contents("html/_styles.html"); ?>
         <?php echo file_get_contents("html/_analytics.html"); ?>
 

@@ -13,6 +13,52 @@
 <meta name="Keywords" content="Harrisburg Pet Sitter, Pet Sitter, Dog Sitter, Cat Sitter. Dog Walker, Pooper Scooper, Pet Waste removal,
 Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Care, Pampered Pets, Pet Parent" />
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Pampered Pets",
+  "url": "https://epamperedpets.com",
+  "image": "https://epamperedpets.com/images/pamperedPets3.png",
+  "description": "In-home, professional pet services to the residents and guests of Harrisburg, PA.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Harrisburg",
+    "addressRegion": "PA",
+    "addressCountry": "US"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Margaret"
+      },
+      "reviewBody": "You can’t really put a price tag on peace of mind and that’s what you’ve given me especially when I was hospitalized in Minnesota. Thanks.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Mike, Carol, Huck, Jiggs, & Pearl"
+      },
+      "reviewBody": "Thanks for everything you did… in caring for Huck, Jiggs, and Pearl as well as the birds and squirrels. It’s nice to know we can rely on someone to be here when we’re away. We appreciate the time you have spent and all the LOVE you show the dogs so they feel comfortable.",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      }
+    }
+  ]
+}
+</script>
+
+
 <?php echo file_get_contents("html/_styles.html"); ?>
 <?php echo file_get_contents("html/_analytics.html"); ?>
 

@@ -16,6 +16,98 @@ Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Car
 <meta property="og:url" content="https://epamperedpets.com">
 <meta name="twitter:card" content="summary_large_image">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://epamperedpets.com/contact",
+      "name": "Contact Pampered Pets",
+      "description": "Contact Pampered Pets for professional pet sitting, dog walking, house sitting, and pet taxi services in Harrisburg, PA.",
+      "url": "https://epamperedpets.com/contact",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Pampered Pets",
+        "url": "https://epamperedpets.com"
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://epamperedpets.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Contact",
+            "item": "https://epamperedpets.com/contact"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://epamperedpets.com#business",
+      "name": "Pampered Pets",
+      "image": "https://epamperedpets.com/images/pamperedPets3.png",
+      "url": "https://epamperedpets.com",
+      "description": "Professional pet sitting, dog walking, and pet care services in Harrisburg, PA.",
+      "telephone": "+1-717-214-1994",
+      "email": "support@epamperedpets.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "4075 Linglestown Rd #346",
+        "addressLocality": "Harrisburg",
+        "addressRegion": "PA",
+        "postalCode": "17110",
+        "addressCountry": "US"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-717-214-1994",
+        "contactType": "customer service",
+        "email": "support@epamperedpets.com",
+        "availableLanguage": ["English"]
+      },
+      "openingHours": [
+        "Mo-Fr 08:00-18:00",
+        "Sa-Su 09:00-16:00"
+      ],
+      "priceRange": "$$",
+      "sameAs": [
+        "https://www.facebook.com/pamperedpets",
+        "https://www.instagram.com/pamperedpets"
+      ],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.2732",
+        "longitude": "-76.8867"
+      }
+    },
+    {
+      "@type": "ContactPage",
+      "url": "https://epamperedpets.com/contact",
+      "name": "Contact Us",
+      "description": "Get in touch with Pampered Pets for professional pet care services in Harrisburg, PA. Call, email, or visit us.",
+      "mainEntity": {
+        "@type": "Organization",
+        "name": "Pampered Pets",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-717-214-1994",
+          "contactType": "customer service",
+          "email": "support@epamperedpets.com",
+          "availableLanguage": ["English"]
+        }
+      }
+    }
+  ]
+}
+</script>
 
 <?php echo file_get_contents("html/_styles.html"); ?>
 <?php echo file_get_contents("html/_analytics.html"); ?>

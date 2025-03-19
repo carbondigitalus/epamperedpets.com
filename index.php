@@ -12,6 +12,145 @@
 	<meta property="og:url" content="https://epamperedpets.com">
 	<meta name="twitter:card" content="summary_large_image">
 
+	<script type="application/ld+json">
+		{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+			"@type": "WebSite",
+			"name": "Pampered Pets",
+			"url": "https://epamperedpets.com",
+			"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https://epamperedpets.com/search?q={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+			},
+			{
+			"@type": "LocalBusiness",
+			"name": "Pampered Pets",
+			"image": "https://epamperedpets.com/images/pamperedPets3.png",
+			"url": "https://epamperedpets.com",
+			"description": "Professional pet sitting and pet care services in Harrisburg, PA, including pet sitting, dog walking, house sitting, pet taxi, and pet waste removal.",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "123 Example St",
+				"addressLocality": "Harrisburg",
+				"addressRegion": "PA",
+				"postalCode": "17101",
+				"addressCountry": "US"
+			},
+			"telephone": "+1-717-214-1994",
+			"email": "info@epamperedpets.com",
+			"openingHours": [
+				"Mo-Fr 08:00-18:00",
+				"Sa-Su 09:00-16:00"
+			],
+			"priceRange": "$$",
+			"sameAs": [
+				"https://www.facebook.com/pamperedpets",
+				"https://www.instagram.com/pamperedpets"
+			],
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": "40.2732",
+				"longitude": "-76.8867"
+			},
+			"serviceArea": {
+				"@type": "Place",
+				"name": "Harrisburg, PA"
+			}
+			},
+			{
+			"@type": "Service",
+			"name": "Pet Sitting",
+			"serviceType": "Pet Sitting",
+			"provider": {
+				"@type": "LocalBusiness",
+				"name": "Pampered Pets"
+			},
+			"areaServed": {
+				"@type": "Place",
+				"name": "Harrisburg, PA"
+			},
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"serviceUrl": "https://epamperedpets.com/services/pet-sitting"
+			}
+			},
+			{
+			"@type": "Service",
+			"name": "Dog Walking",
+			"serviceType": "Dog Walking",
+			"provider": {
+				"@type": "LocalBusiness",
+				"name": "Pampered Pets"
+			},
+			"areaServed": {
+				"@type": "Place",
+				"name": "Harrisburg, PA"
+			},
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"serviceUrl": "https://epamperedpets.com/services/dog-walking"
+			}
+			},
+			{
+			"@type": "Service",
+			"name": "House Sitting",
+			"serviceType": "House Sitting",
+			"provider": {
+				"@type": "LocalBusiness",
+				"name": "Pampered Pets"
+			},
+			"areaServed": {
+				"@type": "Place",
+				"name": "Harrisburg, PA"
+			},
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"serviceUrl": "https://epamperedpets.com/services/house-sitting"
+			}
+			},
+			{
+			"@type": "Service",
+			"name": "Pet Waste Removal",
+			"serviceType": "Pet Waste Cleanup",
+			"provider": {
+				"@type": "LocalBusiness",
+				"name": "Pampered Pets"
+			},
+			"areaServed": {
+				"@type": "Place",
+				"name": "Harrisburg, PA"
+			},
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"serviceUrl": "https://epamperedpets.com/services/pet-waste-removal"
+			}
+			},
+			{
+			"@type": "Service",
+			"name": "Pet Taxi",
+			"serviceType": "Pet Transportation",
+			"provider": {
+				"@type": "LocalBusiness",
+				"name": "Pampered Pets"
+			},
+			"areaServed": {
+				"@type": "Place",
+				"name": "Harrisburg, PA"
+			},
+			"availableChannel": {
+				"@type": "ServiceChannel",
+				"serviceUrl": "https://epamperedpets.com/services/pet-taxi"
+			}
+			}
+		]
+		}
+		</script>
+
+
 		<?php echo file_get_contents("html/_styles.html"); ?>
 		<?php echo file_get_contents("html/_analytics.html"); ?>
 	</head>

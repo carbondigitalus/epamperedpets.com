@@ -12,6 +12,99 @@ Kennel, Doggie daycare, Hershey Park Pet Sitter, Pet Care, Pet Services, Dog Car
 <meta property="og:url" content="https://epamperedpets.com">
 <meta name="twitter:card" content="summary_large_image">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Pampered Pets",
+  "url": "https://epamperedpets.com/",
+  "image": "https://epamperedpets.com/images/pamperedPets3.png",
+  "telephone": "(717) 214-1994",
+  "email": "reservations@epamperedpets.com",
+  "@id": "https://epamperedpets.com/#business",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Harrisburg",
+    "addressRegion": "PA",
+    "addressCountry": "US"
+  },
+  "priceRange": "$10-$80",
+  "serviceArea": [
+    { "@type": "Place", "name": "Harrisburg" },
+    { "@type": "Place", "name": "Hummelstown" },
+    { "@type": "Place", "name": "Hershey" },
+    { "@type": "Place", "name": "Camp Hill" },
+    { "@type": "Place", "name": "Mechanicsburg" }
+  ],
+  "makesOffer": [
+    {
+      "@type": "Service",
+      "name": "Pet Sitting",
+      "description": "In-home pet sitting services for dogs, cats, and other pets.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Pampered Pets"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Harrisburg, PA"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://pamperedpets.petssl.com"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Dog Walking",
+      "description": "Professional dog walking services in Harrisburg, PA.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Pampered Pets"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Harrisburg, PA"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://pamperedpets.petssl.com"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Pet Waste Removal",
+      "description": "Cleaning and removal of pet waste from yards and properties.",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Pampered Pets"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Harrisburg, PA"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://pamperedpets.petssl.com"
+      }
+    }
+  ],
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "name": "Make a Reservation",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://pamperedpets.petssl.com",
+      "actionPlatform": [
+        "http://schema.org/DesktopWebPlatform",
+        "http://schema.org/MobileWebPlatform"
+      ]
+    }
+  }
+}
+</script>
+
+
 <?php echo file_get_contents("html/_styles.html"); ?>
 <?php echo file_get_contents("html/_analytics.html"); ?>
 

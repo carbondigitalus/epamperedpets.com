@@ -14,565 +14,166 @@
 	<meta name="twitter:card" content="summary_large_image">
 
 	<script type="application/ld+json">
-	  {
-	    "@context": "https://schema.org/",
-	    "@type": "Product",
-	    "name": "Pet Sits",
-	    "image": "images/pamperedPets3.png",
+		{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+			"@type": "Product",
+			"name": "Pet Sits",
+			"image": "https://epamperedpets.com/images/pamperedPets3.png",
 			"sku": "1",
-	    "description": "Pet sitter",
-	    "brand": "Pampered Pets",
-	    "offers": {
-	      "@type": "AggregateOffer",
-	      "url": "https://epamperedpets.com/",
-	      "priceCurrency": "USD",
-	      "lowPrice": "$19.00",
-				"highPrice": "$19.00",
+			"description": "Professional pet sitting services",
+			"brand": { "@type": "Brand", "name": "Pampered Pets" },
+			"offers": {
+				"@type": "AggregateOffer",
+				"url": "https://epamperedpets.com/",
+				"priceCurrency": "USD",
+				"lowPrice": "19.00",
+				"highPrice": "19.00",
 				"offerCount": "1"
-	    },
+			},
 			"aggregateRating": {
-		    "@type": "AggregateRating",
-		    "bestRating": "100",
-		    "ratingCount": "24",
-		    "ratingValue": "87"
-		  },
+				"@type": "AggregateRating",
+				"ratingCount": "24",
+				"ratingValue": "87",
+				"bestRating": "100"
+			},
 			"review": [
-			    {
-			      "@type": "Review",
-			      "author": "Tim Carre",
-			      "datePublished": "2020-04-01",
-			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
-			      "name": "Couldn't be happier",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-			    {
-			      "@type": "Review",
-			      "author": "Deb Meinsler",
-			      "datePublished": "2019-03-25",
-			      "reviewBody": "Thank you Jackie. Another fine job.",
-			      "name": "Thank you Jackie",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "4",
-			        "worstRating": "1"
-			      }
-					},
-			    {
-			      "@type": "Review",
-			      "author": "Diane Mulcahy",
-			      "datePublished": "2020-01-15",
-			      "reviewBody": "Great people.",
-			      "name": "Great people",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
+				{
+				"@type": "Review",
+				"author": "Tim Carre",
+				"datePublished": "2020-04-01",
+				"reviewBody": "Animal loving sitters. I trust them with my fur babies.",
+				"name": "Couldn't be happier",
+				"reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "5",
+					"bestRating": "5",
+					"worstRating": "1"
+				}
 				},
 				{
-					"@type": "Review",
-					"author": "Diane Mulcahy",
-					"datePublished": "2018-09-12",
-					"reviewBody": "",
-					"name": "Stars",
-					"reviewRating": {
-						"@type": "Rating",
-						"bestRating": "5",
-						"ratingValue": "4",
-						"worstRating": "1"
-					}
+				"@type": "Review",
+				"author": "Deb Meinsler",
+				"datePublished": "2019-03-25",
+				"reviewBody": "Thank you Jackie. Another fine job.",
+				"name": "Thank you Jackie",
+				"reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "4",
+					"bestRating": "5",
+					"worstRating": "1"
 				}
-			  ]
-	  }
-	</script>
-	<script type="application/ld+json">
-	  {
-	    "@context": "https://schema.org/",
-	    "@type": "Product",
-	    "name": "Pet Walks",
-	    "image": "images/pamperedPets3.png",
+				}
+			]
+			},
+			{
+			"@type": "Product",
+			"name": "Pet Walks",
+			"image": "https://epamperedpets.com/images/pamperedPets3.png",
 			"sku": "2",
-	    "description": "Pet walking",
-	    "brand": "Pampered Pets",
-	    "offers": {
-	      "@type": "AggregateOffer",
-	      "url": "https://epamperedpets.com/",
-	      "priceCurrency": "USD",
-	      "lowPrice": "$18.00",
-				"highPrice": "$18.00",
+			"description": "Professional dog walking services",
+			"brand": { "@type": "Brand", "name": "Pampered Pets" },
+			"offers": {
+				"@type": "AggregateOffer",
+				"url": "https://epamperedpets.com/",
+				"priceCurrency": "USD",
+				"lowPrice": "18.00",
+				"highPrice": "18.00",
 				"offerCount": "1"
 			},
 			"aggregateRating": {
-		    "@type": "AggregateRating",
-		    "bestRating": "100",
-		    "ratingCount": "20",
-		    "ratingValue": "80"
+				"@type": "AggregateRating",
+				"ratingCount": "20",
+				"ratingValue": "80",
+				"bestRating": "100"
 			},
 			"review": [
-			    {
-			      "@type": "Review",
-			      "author": "Tim Carre",
-			      "datePublished": "2020-04-01",
-			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
-			      "name": "Couldn't be happier",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-			    {
-			      "@type": "Review",
-			      "author": "Deb Meinsler",
-			      "datePublished": "2019-03-25",
-			      "reviewBody": "Thank you Jackie. Another fine job.",
-			      "name": "Thank you Jackie",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "4",
-			        "worstRating": "1"
-			      }
-					},
-			    {
-			      "@type": "Review",
-			      "author": "Diane Mulcahy",
-			      "datePublished": "2020-01-15",
-			      "reviewBody": "Great people.",
-			      "name": "Great people",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-				},
 				{
-					"@type": "Review",
-					"author": "Diane Mulcahy",
-					"datePublished": "2018-09-12",
-					"reviewBody": "",
-					"name": "Stars",
-					"reviewRating": {
-						"@type": "Rating",
-						"bestRating": "5",
-						"ratingValue": "4",
-						"worstRating": "1"
-					}
+				"@type": "Review",
+				"author": "Diane Mulcahy",
+				"datePublished": "2020-01-15",
+				"reviewBody": "Great people.",
+				"name": "Great people",
+				"reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "5",
+					"bestRating": "5",
+					"worstRating": "1"
 				}
-			  ]
-	  }
-	</script>
-	<script type="application/ld+json">
-	  {
-	    "@context": "https://schema.org/",
-	    "@type": "Product",
-	    "name": "Pet Waste Cleanup and Removal",
-	    "image": "images/pamperedPets3.png",
+				}
+			]
+			},
+			{
+			"@type": "Product",
+			"name": "Pet Waste Cleanup and Removal",
+			"image": "https://epamperedpets.com/images/pamperedPets3.png",
 			"sku": "3",
-	    "description": "Waste removal",
-	    "brand": "Pampered Pets",
-	    "offers": {
-	      "@type": "AggregateOffer",
-	      "url": "https://epamperedpets.com/",
-	      "priceCurrency": "USD",
-	      "lowPrice": "$1.00",
-				"highPrice": "$1.00",
+			"description": "Cleaning and removal of pet waste from yards",
+			"brand": { "@type": "Brand", "name": "Pampered Pets" },
+			"offers": {
+				"@type": "AggregateOffer",
+				"url": "https://epamperedpets.com/",
+				"priceCurrency": "USD",
+				"lowPrice": "1.00",
+				"highPrice": "1.00",
 				"offerCount": "1"
 			},
 			"aggregateRating": {
-		    "@type": "AggregateRating",
-		    "bestRating": "100",
-		    "ratingCount": "15",
-		    "ratingValue": "73"
+				"@type": "AggregateRating",
+				"ratingCount": "15",
+				"ratingValue": "73",
+				"bestRating": "100"
+			}
 			},
-			"review": [
-			    {
-			      "@type": "Review",
-			      "author": "Tim Carre",
-			      "datePublished": "2020-04-01",
-			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
-			      "name": "Couldn't be happier",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-			    {
-			      "@type": "Review",
-			      "author": "Deb Meinsler",
-			      "datePublished": "2019-03-25",
-			      "reviewBody": "Thank you Jackie. Another fine job.",
-			      "name": "Thank you Jackie",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "4",
-			        "worstRating": "1"
-			      }
-					},
-			    {
-			      "@type": "Review",
-			      "author": "Diane Mulcahy",
-			      "datePublished": "2020-01-15",
-			      "reviewBody": "Great people.",
-			      "name": "Great people",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-				},
-				{
-					"@type": "Review",
-					"author": "Diane Mulcahy",
-					"datePublished": "2018-09-12",
-					"reviewBody": "",
-					"name": "Stars",
-					"reviewRating": {
-						"@type": "Rating",
-						"bestRating": "5",
-						"ratingValue": "4",
-						"worstRating": "1"
-					}
-				}
-			  ]
-	  }
-	</script>
-	<script type="application/ld+json">
-	  {
-	    "@context": "https://schema.org/",
-	    "@type": "Product",
-	    "name": "Pet Taxi",
-	    "image": "images/pamperedPets3.png",
+			{
+			"@type": "Product",
+			"name": "Pet Taxi",
+			"image": "https://epamperedpets.com/images/pamperedPets3.png",
 			"sku": "4",
-	    "description": "Pet transportaion",
-	    "brand": "Pampered Pets",
-	    "offers": {
-	      "@type": "AggregateOffer",
-	      "url": "https://epamperedpets.com/",
-	      "priceCurrency": "USD",
-	      "lowPrice": "$12.00",
-				"highPrice": "$12.00",
+			"description": "Pet transportation services",
+			"brand": { "@type": "Brand", "name": "Pampered Pets" },
+			"offers": {
+				"@type": "AggregateOffer",
+				"url": "https://epamperedpets.com/",
+				"priceCurrency": "USD",
+				"lowPrice": "12.00",
+				"highPrice": "12.00",
 				"offerCount": "1"
 			},
 			"aggregateRating": {
-		    "@type": "AggregateRating",
-		    "bestRating": "100",
-		    "ratingCount": "32",
-		    "ratingValue": "81"
+				"@type": "AggregateRating",
+				"ratingCount": "32",
+				"ratingValue": "81",
+				"bestRating": "100"
+			}
 			},
-			"review": [
-			    {
-			      "@type": "Review",
-			      "author": "Tim Carre",
-			      "datePublished": "2020-04-01",
-			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
-			      "name": "Couldn't be happier",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-			    {
-			      "@type": "Review",
-			      "author": "Deb Meinsler",
-			      "datePublished": "2019-03-25",
-			      "reviewBody": "Thank you Jackie. Another fine job.",
-			      "name": "Thank you Jackie",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "4",
-			        "worstRating": "1"
-			      }
-					},
-			    {
-			      "@type": "Review",
-			      "author": "Diane Mulcahy",
-			      "datePublished": "2020-01-15",
-			      "reviewBody": "Great people.",
-			      "name": "Great people",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-				},
-				{
-					"@type": "Review",
-					"author": "Diane Mulcahy",
-					"datePublished": "2018-09-12",
-					"reviewBody": "",
-					"name": "Stars",
-					"reviewRating": {
-						"@type": "Rating",
-						"bestRating": "5",
-						"ratingValue": "4",
-						"worstRating": "1"
-					}
-				}
-			  ]
-	  }
-	</script>
-	<script type="application/ld+json">
-	  {
-	    "@context": "https://schema.org/",
-	    "@type": "Product",
-	    "name": "Chaperone Service",
-	    "image": "images/pamperedPets3.png",
-			"sku": "5",
-	    "description": "Pet supervision",
-	    "brand": "Pampered Pets",
-	    "offers": {
-	      "@type": "AggregateOffer",
-	      "url": "https://epamperedpets.com/",
-	      "priceCurrency": "USD",
-	      "lowPrice": "$20.00",
-				"highPrice": "$20.00",
-				"offerCount": "1"
-			},
-			"aggregateRating": {
-		    "@type": "AggregateRating",
-		    "bestRating": "100",
-		    "ratingCount": "17",
-		    "ratingValue": "80"
-			},
-			"review": [
-			    {
-			      "@type": "Review",
-			      "author": "Tim Carre",
-			      "datePublished": "2020-04-01",
-			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
-			      "name": "Couldn't be happier",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-			    {
-			      "@type": "Review",
-			      "author": "Deb Meinsler",
-			      "datePublished": "2019-03-25",
-			      "reviewBody": "Thank you Jackie. Another fine job.",
-			      "name": "Thank you Jackie",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "4",
-			        "worstRating": "1"
-			      }
-					},
-			    {
-			      "@type": "Review",
-			      "author": "Diane Mulcahy",
-			      "datePublished": "2020-01-15",
-			      "reviewBody": "Great people.",
-			      "name": "Great people",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-				},
-				{
-					"@type": "Review",
-					"author": "Diane Mulcahy",
-					"datePublished": "2018-09-12",
-					"reviewBody": "",
-					"name": "Stars",
-					"reviewRating": {
-						"@type": "Rating",
-						"bestRating": "5",
-						"ratingValue": "4",
-						"worstRating": "1"
-					}
-				}
-			  ]
-	  }
-	</script>
-	<script type="application/ld+json">
-	  {
-	    "@context": "https://schema.org/",
-	    "@type": "Product",
-	    "name": "Lockout Service",
-	    "image": "images/pamperedPets3.png",
+			{
+			"@type": "Product",
+			"name": "Lockout Service",
+			"image": "https://epamperedpets.com/images/pamperedPets3.png",
 			"sku": "6",
-	    "description": "Provide spare key if locked out of home",
-	    "brand": "Pampered Pets",
-	    "offers": {
-	      "@type": "AggregateOffer",
-	      "url": "https://epamperedpets.com/",
-	      "priceCurrency": "USD",
-	      "lowPrice": "$15.00",
-				"highPrice": "$15.00",
+			"description": "Provide a spare key if locked out of home",
+			"brand": { "@type": "Brand", "name": "Pampered Pets" },
+			"offers": {
+				"@type": "AggregateOffer",
+				"url": "https://epamperedpets.com/",
+				"priceCurrency": "USD",
+				"lowPrice": "15.00",
+				"highPrice": "15.00",
 				"offerCount": "1"
 			},
 			"aggregateRating": {
-		    "@type": "AggregateRating",
-		    "bestRating": "100",
-		    "ratingCount": "25",
-		    "ratingValue": "90"
-			},
-			"review": [
-			    {
-			      "@type": "Review",
-			      "author": "Tim Carre",
-			      "datePublished": "2020-04-01",
-			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
-			      "name": "Couldn't be happier",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-			    {
-			      "@type": "Review",
-			      "author": "Deb Meinsler",
-			      "datePublished": "2019-03-25",
-			      "reviewBody": "Thank you Jackie. Another fine job.",
-			      "name": "Thank you Jackie",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "4",
-			        "worstRating": "1"
-			      }
-					},
-			    {
-			      "@type": "Review",
-			      "author": "Diane Mulcahy",
-			      "datePublished": "2020-01-15",
-			      "reviewBody": "Great people.",
-			      "name": "Great people",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-				},
-				{
-					"@type": "Review",
-					"author": "Diane Mulcahy",
-					"datePublished": "2018-09-12",
-					"reviewBody": "",
-					"name": "Stars",
-					"reviewRating": {
-						"@type": "Rating",
-						"bestRating": "5",
-						"ratingValue": "4",
-						"worstRating": "1"
-					}
-				}
-			  ]
-	  }
-	</script>
-	<script type="application/ld+json">
-	  {
-	    "@context": "https://schema.org/",
-	    "@type": "Product",
-	    "name": "Therapy Dog Services",
-	    "image": "images/pamperedPets3.png",
-			"sku": "7",
-	    "description": "Therapy dog visits",
-			"brand": "Pampered Pets",
-	    "offers": {
-	      "@type": "AggregateOffer",
-	      "url": "https://epamperedpets.com/",
-	      "priceCurrency": "USD",
-	      "lowPrice": "$19.00",
-				"highPrice": "$19.00",
-				"offerCount": "1"
-			},
-			"aggregateRating": {
-		    "@type": "AggregateRating",
-		    "bestRating": "100",
-		    "ratingCount": "31",
-		    "ratingValue": "72"
-			},
-			"review": [
-			    {
-			      "@type": "Review",
-			      "author": "Tim Carre",
-			      "datePublished": "2020-04-01",
-			      "reviewBody": "Animal loving person sitters. I trust them with my fur babies when I must travel without them.",
-			      "name": "Couldn't be happier",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-			    {
-			      "@type": "Review",
-			      "author": "Deb Meinsler",
-			      "datePublished": "2019-03-25",
-			      "reviewBody": "Thank you Jackie. Another fine job.",
-			      "name": "Thank you Jackie",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "4",
-			        "worstRating": "1"
-			      }
-					},
-			    {
-			      "@type": "Review",
-			      "author": "Diane Mulcahy",
-			      "datePublished": "2020-01-15",
-			      "reviewBody": "Great people.",
-			      "name": "Great people",
-			      "reviewRating": {
-			        "@type": "Rating",
-			        "bestRating": "5",
-			        "ratingValue": "5",
-			        "worstRating": "1"
-			      }
-			    },
-				},
-				{
-					"@type": "Review",
-					"author": "Diane Mulcahy",
-					"datePublished": "2018-09-12",
-					"reviewBody": "",
-					"name": "Stars",
-					"reviewRating": {
-						"@type": "Rating",
-						"bestRating": "5",
-						"ratingValue": "4",
-						"worstRating": "1"
-					}
-				}
-			  ]
-	  }
-	</script>
+				"@type": "AggregateRating",
+				"ratingCount": "25",
+				"ratingValue": "90",
+				"bestRating": "100"
+			}
+			}
+		]
+		}
+		</script>
+
 
 	<?php echo file_get_contents("html/_styles.html"); ?>
 	<?php echo file_get_contents("html/_analytics.html"); ?>
